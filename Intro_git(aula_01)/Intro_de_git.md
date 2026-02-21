@@ -73,5 +73,21 @@ $ git commit -m "feat(ap01-git): implementa a subtracao"
  felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
 $ git diff
 
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git tag -a v1.1.0  -m "Implementação e teste da subtração"
 
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git tag -d v1.1.0
+Deleted tag 'v1.1.0' (was df6ddb5)
+
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git tag -a v1.1.0 -m "Implementação e teste da subtração" 095486b
+
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git log --oneline
+ab6064d (HEAD -> main) feat(ap01-git): implementa a multiplicacao
+095486b (tag: v1.1.0) test(ap01-git): testa a funcao subtracao
+2709278 feat(ap01-git): implementa a subtracao
+ac21fe4 (tag: v1.0.0) test(ap01-git): testa a funcao soma
+e10ef4a feat(ap01-git): implementa a soma
 ```
