@@ -64,4 +64,14 @@ e10ef4a (HEAD -> main) feat(ap01-git): implementa a soma
 
 felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
 $ git tag -a v1.0.0 -m "Implementação e teste da soma."
+
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git commit -m "feat(ap01-git): implementa a subtracao"
+[main 2709278] feat(ap01-git): implementa a subtracao
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+ felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git diff
+
+
 ```
