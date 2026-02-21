@@ -62,5 +62,6 @@ $ git commit
 $ git log --oneline
 e10ef4a (HEAD -> main) feat(ap01-git): implementa a soma
 
-
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git tag -a v1.0.0 -m "Implementação e teste da soma."
 ```
