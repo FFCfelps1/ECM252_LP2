@@ -90,6 +90,22 @@ ab6064d (HEAD -> main) feat(ap01-git): implementa a multiplicacao
 2709278 feat(ap01-git): implementa a subtracao
 ac21fe4 (tag: v1.0.0) test(ap01-git): testa a funcao soma
 e10ef4a feat(ap01-git): implementa a soma
-```
 
-teste
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (divisao)
+$ git switch main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git checkout -b divisao
+
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git branch -d divisao
+Deleted branch divisao (was 562de81).
+
+felip@PC_Felipe MINGW64 ~/Desktop/GitHub/ECM252_LP2 (main)
+$ git push origin --delete divisao
+To https://github.com/FFCfelps1/ECM252_LP2.git
+ - [deleted]         divisao
+```
