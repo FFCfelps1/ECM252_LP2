@@ -6,9 +6,9 @@ const Comentario = (props) => {
 				<div className="d-flex align-items-center">
 					<img
 						src={props.avatar}
-						className='rounded-circle me-3'
-						width='80'
-						height='80'
+						className='rounded me-3'
+						width='100'
+						height='100'
 					/>
 				</div>
 				{/* div>(h4.text-center+p.text-center) */}
