@@ -1,7 +1,23 @@
 import Pedido from "./Pedido.jsx"
 import Cartao from "./Cartao.jsx"
+import Feedback from "./Feedback.jsx"
+
 
 const App = () => {
+
+  const textoOK = 'Já recebi'
+  const textoNOK = 'Ainda não recebi'
+  const funcaoOK = () => alert("Agradecemos o feedback")
+  const funcaoNOK = () => alert("Verificamos")
+  const componenteFeedBack = (
+    <Feedback 
+      funcaoOK={funcaoOK}
+      funcaoNOK={funcaoNOK}
+      textoNOK={textoNOK}
+      textoOK={textoOK}
+    />
+  )
+
   return (
     <div className="container border">
       <div className="row">
@@ -21,6 +37,7 @@ const App = () => {
             icone="camera"
             titulo="Câmera"
             descricao="Uma câmera 4K"/>
+            {componenteFeedBack}
             </Cartao>
         </div>
         <div className="col-sm-12 col-md-6 col-xl-3">
@@ -31,6 +48,7 @@ const App = () => {
             icone="bicycle"
             titulo="Bicicleta"
             descricao="Uma bicicleta nova"/>
+            {componenteFeedBack}
           </Cartao>
         </div>
         <div className="col-sm-12 col-md-6 col-xl-3">
@@ -41,6 +59,7 @@ const App = () => {
             icone="hippo"
             titulo="Hipopotaamo"
             descricao="Uma hipopotamo"/>
+            {componenteFeedBack}
           </Cartao>
         </div>
         <div className="col-sm-12 col-md-6 col-xl-3">
@@ -50,7 +69,8 @@ const App = () => {
             data="16/02/2026"
             icone="pencil"
             titulo="Lápis"
-            descricao="Lápis novo com quatro pontas"/>
+            descricao="Lápis novo"/>
+            {componenteFeedBack}
           </Cartao>
         </div>
       </div>
